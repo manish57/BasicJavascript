@@ -1,2 +1,2 @@
-# js01.github.io
+# http://manishjc.com/BasicJavascript/
 Javascript array methods assignments
