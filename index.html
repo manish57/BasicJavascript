@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<title>Assignment 2</title>
+</head>
+<body>
+
+	<div class="container">			  
+		<ul class="nav nav-tabs">
+			<li><a data-toggle="tab" href="#assignment1">Problem-1</a></li>
+			<li><a data-toggle="tab" href="#assignment2">Problem-2</a></li>
+			<li><a data-toggle="tab" href="#assignment3">Problem-3</a></li>
+			<li><a data-toggle="tab" href="#assignment4">Problem-4</a></li>
+			<li><a data-toggle="tab" href="#assignment5">Problem-5</a></li>
+			<li><a data-toggle="tab" href="#assignment6">Problem-6</a></li>
+			<li><a data-toggle="tab" href="#assignment7">Problem-7</a></li>
+			<li><a data-toggle="tab" href="#assignment8">Problem-8</a></li>
+			<li><a data-toggle="tab" href="#assignment9">Problem-9</a></li>
+			<li><a data-toggle="tab" href="#assignment10">Problem-10</a></li>
+		</ul>
+			  
+		<div class="tab-content">
+			<!-- First Assignment -->
+			<div id="assignment1" class="tab-pane fade in active">
+				<h3>Get 3 numbers from user and display which is greatest.</h3>
+				<form class="form-horizontal well">
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valA">Enter First number: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valA" placeholder="Enter number">
+						</div>
+					</div>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valB">Enter Second number: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valB" placeholder="Enter number">
+						</div>
+					</div>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valC">Enter Third number: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valC" placeholder="Enter number">
+						</div>
+					</div>
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a1()">Submit</button><br>
+						<h1 id="sol1"></h1>
+					</div>
+				</form>
+			</div>
+
+			<!-- Second Assignment -->
+			<div id="assignment2" class="tab-pane fade">
+				<h3>Get 2 numbers from user and display range between those two nos with ascending and descending functionality</h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valD">Enter First number: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valD" placeholder="Enter number">
+							</div>
+						</div>
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valE">Enter Second number: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valE" placeholder="Enter number">
+							</div>
+						</div>
+
+						<div class="mid1">
+							<button type="button" class="btn btn-primary btn-lg" onclick="a2()">Submit</button><br>
+							<h1 id="sol2"></h1>
+						</div>
+					</form>
+			</div>
+
+			<!-- Third Assignment -->
+			<div id="assignment3" class="tab-pane fade">
+				<h3>Get 2 numbers and skip range from user and display range between those two nos with ascending and descending functionality </h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valF">Enter First number: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valF" placeholder="Enter number">
+							</div>
+						</div>
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valG">Enter Second number: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valG" placeholder="Enter number">
+							</div>
+						</div>
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valH">Enter number of digits to skip: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valH" placeholder="Enter number">
+							</div>
+						</div>
+
+						<div class="mid1">
+							<button type="button" class="btn btn-primary btn-lg" onclick="a3()">Submit</button><br>
+							<h1 id="sol3"></h1>
+						</div>
+					</form>
+			</div>
+
+			<!-- Fourth Assignment -->
+			<div id="assignment4" class="tab-pane fade">
+				<h3>Get number of elements to store in array from user and Display all the values - starting from last element to 1st element </h3>
+				<form class="form-horizontal well">
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valI">Enter numbers in array seperated by comma: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valI" placeholder="Enter number">
+						</div>
+					</div>
+
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a4()">Submit</button><br>
+						<h1 id="sol4"></h1>
+					</div>
+				</form>
+			</div>
+
+			<!-- Fifth Assignment -->
+			<div id="assignment5" class="tab-pane fade">
+				<h3>Create an array of 10 elements and display only odd elements.</h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valJ">Enter numbers in array seperated by comma: </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valJ" placeholder="Enter number">
+							</div>
+						</div>
+	
+						<div class="mid1">
+							<button type="button" class="btn btn-primary btn-lg" onclick="a5()">Submit</button><br>
+							<h1 id="sol5"></h1>
+						</div>
+					</form>				
+			</div>
+
+			<!-- Sixth Assignment -->
+			<div id="assignment6" class="tab-pane fade">
+				<h3>Create a function which takes 1 argument as a number and returns whether the number is prime or not - isPrime and will return boolean</h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valK">Enter a number to check whether it is prime or not </label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valK" placeholder="Enter number">
+							</div>
+						</div>
+	
+						<div class="mid1">
+							<button type="button" class="btn btn-primary btn-lg" onclick="a6()">Submit</button><br>
+							<h1 id="sol6"></h1>
+						</div>
+					</form>	
+			</div>
+
+			<!-- Seventh Assignment -->
+			<div id="assignment7" class="tab-pane fade">
+				<h3>Create a function taking 1 numeric argument, which displays reverse number.</h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valL">Enter a number to get in reverse form</label>
+							<div class="col-sm-4">
+								<input class="form-control" type="text" id="valL" placeholder="Enter number">
+							</div>
+						</div>
+	
+						<div class="mid1">
+							<button type="button" class="btn btn-primary btn-lg" onclick="a7()">Submit</button><br>
+							<h1 id="sol7"></h1>
+						</div>
+				</form>	
+			</div>
+
+			<!-- Eight Assignment -->
+			<div id="assignment8" class="tab-pane fade">
+				<h3>Create an array of 10 elements. Ask user to remove element by entering index number and remove that element</h3>
+				<form class="form-horizontal well">
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valM">Enter numbers in array seperated by comma: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valM" placeholder="Enter number">
+						</div>
+					</div>
+					<h1 id="sol8"></h1>
+
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valN">Enter index number to remove from array: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valN" placeholder="Enter number">
+						</div>
+					</div>
+
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a8()">Submit</button><br>
+						<h1 id="sol8a"></h1>
+					</div>
+				</form>				
+			</div>
+
+			<!-- Nineth Assignment -->
+			<div id="assignment9" class="tab-pane fade">
+				<h3>Use map, reduce and filter methods</h3>
+				<form class="form-horizontal well">
+					<h3>Map Method to add same number to all the elements of array</h3>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valO">Enter an array seperated by comma: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valO" placeholder="Enter number">
+						</div>
+					</div>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valP">Add with: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valP" placeholder="Enter number">
+						</div>
+					</div>
+
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a9a()">Submit</button><br>
+						<h1 id="sol9a"></h1>
+					</div>
+					</hr>
+
+					<h3>Reduce Method to get sum of all values from array</h3>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valQ">Enter an array seperated by comma: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valQ" placeholder="Enter number">
+						</div>
+					</div>
+					
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a9b()">Submit</button><br>
+						<h1 id="sol9b"></h1>
+					</div>
+					</hr>
+
+					<h3>Filter Method to get even nos from array</h3>
+					<div class="form-group form-group-lg">
+						<label class="col-sm-3 control-label" for="valR">Enter an array seperated by comma: </label>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" id="valR" placeholder="Enter number">
+						</div>
+					</div>
+					
+					<div class="mid1">
+						<button type="button" class="btn btn-primary btn-lg" onclick="a9c()">Submit</button><br>
+						<h1 id="sol9c"></h1>
+					</div>
+				</form>	
+			</div>
+
+			<!-- Tenth Assignment -->
+			<div id="assignment10" class="tab-pane fade">
+				<h3>Create a function called Multiply which takes n number of arguments, the function should multiply the passed numbers.</h3>
+				<form class="form-horizontal well">
+						<div class="form-group form-group-lg">
+							<label class="col-sm-3 control-label" for="valS">Enter numbers seperated by comma:</label>
+							<div class="col-sm-4">
+							<input class="form-control" type="text" id="valS" placeholder="Enter number">
+							</div>
+						</div>
+	
+						<div class="mid1">
+								<button type="button" class="btn btn-primary btn-lg" onclick="a10()">Submit</button><br>
+								<h1 id="sol10"></h1>
+							</div>
+				</form>	
+			</div>
+
+		</div>
+	</div>
+
+	<footer> <!-- FOOTER SECTION -->             
+	        <div class="container">
+	          <p>Copyright &copy; 2017 by Manish Chaudhari. All rights reserved.</p>
+			</div>            
+	</footer> <!-- FOOTER SECTION END-->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
